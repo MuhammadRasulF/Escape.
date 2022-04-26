@@ -973,4 +973,25 @@ img {
   padding-bottom: 32px;
   background-color: rgba(35, 47, 56, 0.6);
 }
+
+@media only screen and (max-width: 500px) {
+  .footer-list {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
