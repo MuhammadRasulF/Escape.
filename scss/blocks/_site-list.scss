@@ -1,0 +1,36 @@
+.site-list__container {
+    padding-top: 22px;
+    padding-bottom: 23px;
+}
+
+.site-list__list {
+    @include list-unstyled;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.site-list__item-link {
+    margin:0;
+    padding: 0;
+    font-family: $font-lora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: $list-color;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .site-list__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .site-list__item {
+        margin-bottom: 20px;
+    }    
+}
